@@ -88,6 +88,8 @@
   },
   "dependencies": {
     "@comunica/actor-http-fetch": "^3.1.0",
-    "@comunica/actor-http-native": "^3.2.0"
+    "@comunica/actor-http-native": "^3.2.0",
+    "@comunica/bus-http": "^3.2.0",
+    "@comunica/core": "^3.2.0"
   }
 }
