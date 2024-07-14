@@ -18,6 +18,7 @@
     "lint:fix": "eslint lib/* __tests__/* --ext .ts --fix",
     "build": "tsc",
     "prepare": "tsc",
+    "perf": "ts-node lib/index.ts",
     "semantic-release": "semantic-release"
   },
   "repository": {
@@ -42,6 +43,7 @@
     "pre-commit": "^1.2.2",
     "semantic-release": "^24.0.0",
     "ts-jest": "^29.2.2",
+    "ts-node": "^10.9.2",
     "typescript": "^5.5.3"
   },
   "jest": {
@@ -83,5 +85,9 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@comunica/actor-http-fetch": "^3.1.0",
+    "@comunica/actor-http-native": "^3.2.0"
   }
 }
